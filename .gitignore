@@ -1,0 +1,25 @@
+# ---- 构建输出 (MounRiver Studio) ----
+obj/
+*.o
+*.elf
+*.hex
+*.lst
+*.map
+*.bin
+*.a
+
+# ---- MounRiver / Eclipse 工作区文件 ----
+.mrs/
+.settings/
+.metadata/
+*.launch.swp
+
+# ---- 调试 / 备份临时文件 ----
+*.bak
+*.orig
+*.swp
+*~
+
+# ---- macOS / Windows 系统文件 ----
+.DS_Store
+Thumbs.db
